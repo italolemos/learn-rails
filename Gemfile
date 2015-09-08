@@ -22,7 +22,21 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+# learn-rails
+gem 'activerecord-tableless'
+gem 'compass-rails', '~> 2.0.alpha.0' 
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+gem 'simple_form'
+gem 'zurb-foundation'
 
+group :development do
+	gem 'better_errors' 
+	gem 'quiet_assets' 
+	gem 'rails_layout'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
